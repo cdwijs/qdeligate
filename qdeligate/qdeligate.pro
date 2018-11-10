@@ -24,10 +24,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    deligate.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    deligate.h
 
 FORMS += \
         mainwindow.ui
